@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="corgi.css"/>
+    <title>Flash</title>
+    <style>
+        @font-face {
+         font-family: alienfont;
+         src: url('PixelatedEleganceRegular-ovyAA.ttf');
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: alienfont;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .line {
+            width: 100%;
+            height: 2px;
+            background-color: darkblue;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: dodgerblue;">FLASH</h1>
+    <div class="line"></div>
+    <div class="image-container">
+        <img src="corgi.jpg" alt="JTM" style="max-width: 280px;">
+    </div>
+    <div class="bottom-text-container">
+        <span>YOU FOUND CORGI_2451224</span>
+        <span>READY FOR THE NEXT ONE ?</span>
+    </div>
+    <div class="pts-container">
+        <span>+100 PTS</span>
+    </div>
+
+    <!-- <embed name="bravo" src="invader-merguez.m4a" loop="false" hidden="true" autostart="true"> -->
+    <audio autoplay src="invader-merguez.m4a"></audio>
+
+    <!-- <script>
+        window.onload = function() {
+            document.getElementById("invader-merguez").play();
+        }
+    </script> -->
+
+
+</body>
+</html>
